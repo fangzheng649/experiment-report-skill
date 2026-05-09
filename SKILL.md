@@ -47,7 +47,10 @@ digraph pipeline {
 3. 缺失时给出安装指导：
    - **TeX Live**（推荐）：`https://tug.org/texlive/`
    - **MiKTeX**：`https://miktex.org/`
-4. 询问用户是否有现成封面模板（PDF），有则记录路径
+4. 封面处理（优先级从高到低）：
+   - **推荐**：用户提供学校/课程的 docx 封面模板 → 用 Word 填写个人信息 → 另存为 PDF → 用 `\includepdf[pages=1]{封面.pdf}` 插入
+   - **备选**：用户已有填好的封面 PDF → 直接 `\includepdf` 插入
+   - **兜底**：无封面模板时使用 templates.md 中的 LaTeX 封面动态生成
 5. 确定工作目录（默认 `report/`，用户可自定义）
 
 ### 阶段1：内容收集
