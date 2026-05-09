@@ -19,6 +19,7 @@
   - [TeX Live](https://tug.org/texlive/)（推荐）
   - [MiKTeX](https://miktex.org/)
 - 需包含 `xelatex` 和 `ctexart` 文档类
+- **推荐**：[VS Code](https://code.visualstudio.com/) + [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) 插件，用于实时预览 PDF 和编辑定位
 
 ## 安装
 

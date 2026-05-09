@@ -52,6 +52,7 @@ digraph pipeline {
    - **备选**：用户已有填好的封面 PDF → 直接 `\includepdf` 插入
    - **兜底**：无封面模板时使用 templates.md 中的 LaTeX 封面动态生成
 5. 确定工作目录（默认 `report/`，用户可自定义）
+6. 推荐使用 VS Code + LaTeX Workshop 插件进行实时预览：skill 生成 tex 后自动编译，用户可在 VS Code 中实时查看 PDF、定位编辑
 
 ### 阶段1：内容收集
 
